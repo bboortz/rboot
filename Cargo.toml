@@ -1,6 +1,6 @@
 [package]
 name = "rboot"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Benjamin Boortz <benjamin.boortz@secure.mailbox.org>"]
 description = "bootstrap the rust development"
