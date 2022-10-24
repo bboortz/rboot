@@ -2,6 +2,18 @@
 name = "rboot"
 version = "0.1.0"
 edition = "2021"
+authors = ["Benjamin Boortz <benjamin.boortz@secure.mailbox.org>"]
+description = "bootstrap the rust development"
+documentation = "https://docs.rs/rboot"
+categories = ["rust", "bootstrap", "setup", "init"]
+keywords = ["rust", "bootstrap", "setup", "init"]
+license = "MIT"
+repository = "https://github.com/bboortz/rboot"
+rust-version = "1.56"
+
+[package.metadata.docs.rs]
+package-name = "rboot"
+targets = ["x86_64-unknown-linux-musl"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
