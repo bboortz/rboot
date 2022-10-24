@@ -1,12 +1,12 @@
 [package]
 name = "rboot"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Benjamin Boortz <benjamin.boortz@secure.mailbox.org>"]
 description = "bootstrap the rust development"
 documentation = "https://docs.rs/rboot"
-categories = ["rust", "bootstrap", "setup", "init", "config"]
-keywords = ["config", "development-tools"]
+categories = ["config", "development-tools", "no-std"]
+keywords = ["bootstrap", "setup", "init", "config", "dev"]
 license = "MIT"
 repository = "https://github.com/bboortz/rboot"
 rust-version = "1.56"
